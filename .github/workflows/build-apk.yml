@@ -24,6 +24,8 @@ jobs:
           java-version: '17'
       - name: Preparar Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
       - name: Instalar Capacitor
         run: npm install --no-audit --no-fund
       - name: Crear proyecto Android
