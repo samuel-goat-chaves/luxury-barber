@@ -1,0 +1,9 @@
+{
+  "appId": "com.luxurybarber.pasto",
+  "appName": "Luxury Barber",
+  "webDir": "www",
+  "server": {
+    "url": "https://samuel-goat-chaves.github.io/luxury-barber/",
+    "cleartext": false
+  }
+}
